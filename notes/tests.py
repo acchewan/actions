@@ -10,7 +10,7 @@ class AddTestCase(TestCase):
 
 class NotesTestCase(TestCase):
     def test_notes_can_be_added(self):
-        response = self.client.post(reverse('notesadd'), {
+        response = self.client.post(reverse('notes:add'), {
             "title": "Test Note",
             "description": "This is a test note."
         })
