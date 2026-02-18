@@ -1,0 +1,11 @@
+{
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "[html][django-html]": {
+    "editor.defaultFormatter": "monosans.djlint"
+  },
+  "djlint.showInstallError": false,
+  "python.languageServer": "Pylance",
+  "editor.fontSize": 13
+}
